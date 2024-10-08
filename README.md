@@ -96,8 +96,13 @@ Buena suerte!
 ## Respuestas
 
 Preguntas -Parte 1: 
+1.Principalmente se podria implementar un patrón FactoryMethod en la cual podriamos agregar las funciones expuestas anteriormente(Eliminar un Evento para un determinado Asistente,Ingresar un nuevo Evento, Asociar un Evento con un Asistente, Actualizar datos de un Evento) de esta manera las podriamos quitar del main, se deben considerar los parametros a entregar para cada funcion al momento de pasar una funcion. Para lograr esto se crearia un clase abstracta Factory la cual se implemente en evento, de esta manera todas las funciones en relacion a evento estarian en la clase de evento.
 
+Para lograr que un evento se actualicen y los asistentes interesados deben ser notificados, podemos implementar un patrón de tipo Observer, este se deberia relacionar con la clase asistente, de esta vamos a extraer la funcion notificarCambio(Evento evento).
 
+2.
 
 Preguntas -Parte 2: 
+1. ii - creamos la interfaz base con diversas funciones, esta interfaz se va implementar en diferentes clases como estas van a contener las mismas funcines pero por clase se va cambiando un valor que no afecta a la funcion como tal.
 
+2. la clase A, lee y rescribe la informacion que se le entrega al programa a su vez la clase B, se encarga de subir y eliminar infromacion al programa. Ambas clases tienen un relacion directa con la clase C, quien es la encargada de guarda y distribuye la informacion que le es entregada por las 2 clases anteriores.  
