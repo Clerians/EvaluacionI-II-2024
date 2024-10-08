@@ -95,4 +95,9 @@ Buena suerte!
 
 ## Respuestas
 
-(comienze a escribir aquí sus respuestas, indicando sección y número de pregunta)
+Preguntas -Parte 1: 
+
+
+
+Preguntas -Parte 2: 
+
