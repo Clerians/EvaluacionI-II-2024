@@ -100,7 +100,7 @@ Preguntas -Parte 1:
 
 Para lograr que un evento se actualicen y los asistentes interesados deben ser notificados, podemos implementar un patrón de tipo Observer, este se deberia relacionar con la clase asistente, de esta vamos a extraer la funcion notificarCambio(Evento evento).
 
-2.
+2. 
 
 Preguntas -Parte 2: 
 1. ii - creamos la interfaz base con diversas funciones, esta interfaz se va implementar en diferentes clases como estas van a contener las mismas funcines pero por clase se va cambiando un valor que no afecta a la funcion como tal.
